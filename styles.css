@@ -1,0 +1,12 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: lightcyan;
+}
+
+h1 {
+  text-align: center;
+}

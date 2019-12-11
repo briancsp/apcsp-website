@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Commands</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+
+    <h1>Linux Command Reference</h1>
+
+    <a href="index.html">Back to home</a>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Synopsis/Syntax</th>
+        <th>Description</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>echo</td>
+        <td>echo STRING</td>
+        <td>Prints the string</td>
+        <td>echo hello world
+            <br>hello world
+        </td>
+      </tr>
+      <tr>
+        <td>date</td>
+        <td>date</td>
+        <td>Prints the current date and time</td>
+        <td>date
+          <br>Mon 02 Dec 2019
+          <br>01:08:16 PM PST
+        </td>
+      </tr>
+      <tr>
+        <td>hostname</td>
+        <td>hostname</td>
+        <td>Prints the system's hostname</td>
+        <td>hostname
+          <br>rpi14
+        </td>
+      </tr>
+      <tr>
+        <td>arch</td>
+        <td>arch</td>
+        <td>Prints the machine hardware name</td>
+        <td>arch
+          <br>armv14
+        </td>
+      </tr>
+      <tr>
+        <td>uname</td>
+        <td>uname -a</td>
+        <td>Prints all information about the system, including the hostname and machine hardware name</td>
+        <td>uname -a
+          <br>Linux rpi14 4.19.75-v7+ #1270 SMP Tue Sep 24 18:45:11 BST 2019 armv7l GNU/Linux
+        </td>
+      </tr>
+      <tr>
+        <td>uptime</td>
+        <td>uptime</td>
+        <td>Shows the current time, how long the system has been running, and how many users are using the system</td>
+        <td>uptime
+          <br>13:13:57 up  5:53,  1 user,  load average: 0.00, 0.00, 0.00
+        </td>
+      </tr>
+      <tr>
+        <td>who
+          <br>(or w)
+        </td>
+        <td>who</td>
+        <td>Shows which users are using the system and what they are doing</td>
+        <td>who
+          <br>sp1a     pts/0        2019-12-02 13:05 (172.19.32.21)
+        </td>
+      </tr>
+      <tr>
+        <td>id</td>
+        <td>id user</td>
+        <td>Shows user and group IDs for selected user, or current user if no user is selected</td>
+        <td>id
+          <br>uid=1001(sp1a) gid=1001(sp1a) groups=1001(sp1a),997(gpio)
+        </td>
+      </tr>
+      <tr>
+        <td>mv</td>
+        <td>mv file destination</td>
+        <td>Moves the contents of a file to another file. This can be used to rename a file.</td>
+        <td>mv hello helloNEW</td>
+      </tr>
+      <tr>
+        <td>ls</td>
+        <td>ls directory</td>
+        <td>Displays all files and directories stored in the specified directory</td>
+        <td>ls temp</td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
