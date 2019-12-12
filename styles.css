@@ -1,5 +1,19 @@
+table {
+  border-collapse: collapse;
+}
+
 table, th, td {
   border: 1px solid black;
+}
+
+th {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+td {
+  background-color: lightgrey;
+  color: black;
 }
 
 body {
