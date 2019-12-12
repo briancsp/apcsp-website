@@ -7,8 +7,11 @@
   <body>
 
     <h1>Linux Command Reference</h1>
+    <li>
+      <a href="index.html">Back to home</a>
+    </li>
 
-    <a href="index.html">Back to home</a>
+    <p></p>
 
     <table>
       <tr>
@@ -70,10 +73,17 @@
         <td>who
           <br>(or w)
         </td>
-        <td>who</td>
-        <td>Shows which users are using the system and what they are doing</td>
+        <td>who
+          <br>
+          <br>w
+        </td>
+        <td>Shows which users are using the system (and what they are doing, if w is used)</td>
         <td>who
           <br>sp1a     pts/0        2019-12-02 13:05 (172.19.32.21)
+          <br>
+          <br>w
+          <br>sp1a     pts/0        2019-12-12 12:21 (172.19.32.11)
+          <br>sp1b     pts/1        2019-12-12 11:50 (172.19.32.48)
         </td>
       </tr>
       <tr>
@@ -86,13 +96,13 @@
       </tr>
       <tr>
         <td>mv</td>
-        <td>mv file destination</td>
+        <td>mv FILE DESTINATION</td>
         <td>Moves the contents of a file to another file. This can be used to rename a file.</td>
         <td>mv hello helloNEW</td>
       </tr>
       <tr>
         <td>ls</td>
-        <td>ls directory</td>
+        <td>ls DIRECTORY</td>
         <td>Displays all files and directories stored in the specified directory</td>
         <td>ls temp</td>
       </tr>
