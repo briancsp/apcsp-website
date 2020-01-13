@@ -7,8 +7,8 @@
 
   <body>
 
-    <h1>Form Input - Demo 2</h1>
-    <p>Demo of how to take form input and pass it to a program - all in a single page</p>
+    <h1>Area of Circle</h1>
+    <p>Enter bounds for circle program:</p>
 
     <?php
        // define variables and set to empty values
