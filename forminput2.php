@@ -52,8 +52,10 @@
        
          echo "<h2>Program Return Code:</h2>";
          echo $retc;
+	 echo "<br>";
        }
     ?>
+    <a href="index.html">Back to home</a>
     
   </body>
 </html>
