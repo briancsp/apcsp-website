@@ -7,9 +7,10 @@
 
 
   <body>
-
-    <h1>Final Project - Vigenere Encryption/Decryption</h1>
-    <p>Enter plaintext or ciphertext to be encrypted/decrypted, keyword to encrypt/decrypt with, and select encryption or decryption process to be executed.<br>Enter "1TP" (just like that) for keyword to use One-Time Pad to ENCRYPT ONLY. Decrypting with a random key doesn't make sense!<br>Cryptography is fun!</p>
+    <div>
+      <h1>Final Project - Vigenere Encryption/Decryption</h1>
+    </div>
+      <p>Enter plaintext or ciphertext to be encrypted/decrypted, keyword to encrypt/decrypt with, and select encryption or decryption process to be executed.<br>Enter "1TP" (just like that) for keyword to use One-Time Pad to ENCRYPT ONLY. Decrypting with a random key doesn't make sense!<br>Use '_' for spaces... they'll get removed in the encryption process anyway.<br>Cryptography is fun!</p>
     <li>
       <a href="index.html">Back to home</a>
     </li>
